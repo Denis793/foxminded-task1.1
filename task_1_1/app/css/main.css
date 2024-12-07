@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #a72800;
+  height: 500px;
+  color: #fff;
+}
+
+.actor {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.actor__section {
+  flex: 1;
+  padding-top: 40px;
+}
+
+.actor__name {
+  font-size: 12rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+
+.actor__description {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.actor__parameters {
+  font-size: 5.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+.actor__height-weight {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.actor__portrait {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.foxminded {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foxminded__text {
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: bold;
+  padding: 40px;
+}
+
+.main-description {
+  margin-top: 280px;
+}
+
+.general__text {
+  margin: 40px 0;
+  line-height: 32px;
+  font-size: 2.4rem;
+}
+
+.accent__text {
+  background-color: #d9d9d9;
+  padding: 20px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.movie-categories {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.movie-categories__section {
+  font-size: 2.4rem;
+  width: fit-content;
+  background-color: #d9d9d9;
+  padding: 20px;
+}
+
+.movie-categories__section h2 {
+  font-size: 2.4rem;
+  padding: 20px;
+}
+
+.movie-categories__section ul {
+  padding: 20px 60px;
+}
+
+.footer__line {
+  height: 12px;
+  background-color: #a72800;
+}
